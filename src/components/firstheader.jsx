@@ -21,9 +21,8 @@ export default function Header() {
   ];
 
   return (
-    <div className="bg-gray-400 w-full flex justify-between items-center top-0 left-0 z-50 px-4">
+    <div className="bg-gray-400 fixed w-full flex justify-between items-center top-0 left-0 z-50 px-4">
       {/* Logo */}
-      <div className="text-white text-xl font-bold">Your Logo</div>
 
       {/* Mobile Hamburger Icon */}
       <button
