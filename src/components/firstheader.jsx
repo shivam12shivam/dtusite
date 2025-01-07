@@ -5,23 +5,23 @@ export default function Header() {
 
   const navItems = [
     { label: "Home", link: "/" },
-    { label: "Vision & Mission", link: "/vision" },
-    { label: "East Delhi Campus", link: "/east-delhi-campus" },
-    { label: "Wall of Donors", link: "/donors" },
-    { label: "Alumni Affairs", link: "/alumni" },
-    { label: "International Affairs", link: "/international" },
-    { label: "T & P", link: "/training-placement" },
-    { label: "ICC", link: "/icc" },
-    { label: "NIRF", link: "/nirf" },
-    { label: "ARIIA", link: "/ariia" },
-    { label: "Photo Gallery", link: "/gallery" },
-    { label: "DTU Studio", link: "/studio" },
-    { label: "RTI Info", link: "/rti-info" },
-    { label: "Contact Us", link: "/contact" },
+    { label: "Vision & Mission", link: "http://www.dtu.ac.in/Web/About/vision.php" },
+    { label: "East Delhi Campus", link: "http://www.dtu.ac.in/Web/Departments/eastcampus/about/" },
+    { label: "Wall of Donors", link: "http://www.dtu.ac.in/Web/quick_links/donors.php" },
+    { label: "Alumni Affairs", link: "http://alumniaffairs.dtu.ac.in/" },
+    { label: "International Affairs", link: "http://intaffairs.dtu.ac.in/" },
+    { label: "T & P", link: "http://tnp.dtu.ac.in/" },
+    { label: "ICC", link: "http://dtu.ac.in/Web/ICC/about/" },
+    { label: "NIRF", link: "http://www.dtu.ac.in/Web/quick_links/NIRF2017.php" },
+    { label: "ARIIA", link: "http://dtu.ac.in/Web/ICC/about/" },
+    { label: "Photo Gallery", link: "http://www.dtu.ac.in/Web/programme/vigilance23/" },
+    { label: "DTU Studio", link: "https://www.youtube.com/channel/UCZqfUb0w7w0NPsTx7I7RtsQ" },
+    { label: "RTI Info", link: "http://www.dtu.ac.in/Web/quick_links/rti.php" },
+    { label: "Contact Us", link: "http://www.dtu.ac.in/Web/About/contactus.php" },
   ];
 
   return (
-    <div className=" bg-customOrange relative w-full flex justify-between items-center top-0 left-0 z-50 mx-0" >
+    <div className=" bg-gray-500 relative w-full flex justify-between items-center top-0 left-0 z-50 mx-0" >
       {/* Logo */}
 
       {/* Mobile Hamburger Icon */}

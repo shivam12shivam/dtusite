@@ -29,7 +29,7 @@ export function Carouselfunc() {
           className="object-fill h-full w-full "
         />
         <img
-          src="src\images\22.webp"
+          src="\src\images\22.webp"
           alt="image 3"
           className="object-fill h-full w-full "
         />
