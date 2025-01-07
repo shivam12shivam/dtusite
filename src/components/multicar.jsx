@@ -7,7 +7,7 @@ export function MultiCar() {
             <div className="w-full sm:w-1/3">
                 <div className="font-black shadow-2xl text-2xl">RESEARCH HIGHLIGHTS</div>
                 <Carousel
-                    transition={{ duration: 2 }}
+                    transition={{ duration: 3 }}
                     autoplay={true}
                     loop={true}
                     className=" overflow-hidden h-[340px]"
@@ -47,7 +47,7 @@ export function MultiCar() {
                 <div className="font-extrabold shadow-2xl shadow-black text-2xl"><h1>ALUMNI CORNER</h1></div>
 
                 <Carousel
-                    transition={{ duration: 2 }}
+                    transition={{ duration: 3.5 }}
                     autoplay={true}
                     loop={true}
                     className=" overflow-hidden h-[340px]"
@@ -74,7 +74,7 @@ export function MultiCar() {
                             alt="image 2"
                             className=" "
                         />
-                        <div className=" overflow-hidden left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2">
+                        <div className=" overflow-hidden left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2 sm:p-4 md:p-4 text-sm sm:text-base">
                             Dr Lal PathLabs, one of India's leading diagnostic chains, has recently appointed Mr. Shankha Banerjee (DTU Alumnus, B.E. 1994, Production & Industrial Engg) as its new CEO.
                         </div>
 
@@ -98,7 +98,7 @@ export function MultiCar() {
                 <div className="font-extrabold shadow-2xl text-2xl">INCUBATION@DTU</div>
 
                 <Carousel
-                    transition={{ duration: 2 }}
+                    transition={{ duration: 4 }}
                     autoplay={true}
                     loop={true}
                     className=" overflow-hidden h-[340px]"
