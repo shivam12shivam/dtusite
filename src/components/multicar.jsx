@@ -5,9 +5,9 @@ export function MultiCar() {
     <div className="gap-2 mt-2 grid sm:grid-cols-1 md:grid-cols-2 lg:flex border-t border-blue-gray-200">
       {/* Carousel 1 */}
       <div className="w-full sm:w-1/3">
-      <div className="font-extrabold shadow-2xl text-2xl">RESEARCH HIGHLIGHTS</div>
+      <div className="font-black shadow-2xl text-2xl">RESEARCH HIGHLIGHTS</div>
         <Carousel
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
           autoplay={true}
           loop={true}
           className=" overflow-hidden h-[340px]"
@@ -47,7 +47,7 @@ export function MultiCar() {
       <div className="font-extrabold shadow-2xl text-2xl"><h1>ALUMNI CORNER</h1></div>
 
         <Carousel
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
           autoplay={true}
           loop={true}
           className=" overflow-hidden h-[340px]"
@@ -86,7 +86,7 @@ export function MultiCar() {
       <div className="font-extrabold shadow-2xl text-2xl">INCUBATION@DTU</div>
 
         <Carousel
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
           autoplay={true}
           loop={true}
           className=" overflow-hidden h-[340px]"

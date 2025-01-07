@@ -25,7 +25,7 @@ function App() {
         </div>
         <Carouselfunc />
         <MultiCar />
-        <div className='mt-2 flex justify-between h-full w-full sm:flex-col sm:space-y-4 md:flex-row md:space-x-6 '>
+        <div className='mt-2 flex flex-wrap justify-around h-full w-full sm:flex-col sm:space-y-4 md:flex-row md:space-x-6 '>
           <img src="/src/images/info.png" alt="" className=" h-full"  />
           <Listfunc/>
         </div>
