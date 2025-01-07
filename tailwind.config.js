@@ -7,6 +7,9 @@ module.exports = withMT({
       colors: {
         customOrange: 'rgb(222, 151, 62)', // or '#DE973E'
       },
+      fontFamily: {
+        impact: ['Impact', 'Arial', 'sans-serif'], // Add Impact with fallbacks
+      },
     },
   },
   plugins: [],
