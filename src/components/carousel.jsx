@@ -19,17 +19,17 @@ export function Carouselfunc() {
         )}
       >
         <img
-          src="https://www.wewishes.com/wp-content/uploads/2020/07/Gym-Quotes-1.jpg"
+          src="\src\images\20.avif"
           alt="image 1"
           className="object-fill h-full w-full "
         />
         <img
-          src="https://staticg.sportskeeda.com/editor/2022/10/31dcd-16652377189175-1920.jpg"
+          src="\src\images\21.jpg"
           alt="image 2"
           className="object-fill h-full w-full "
         />
         <img
-          src="https://www.wewishes.com/wp-content/uploads/2020/07/Gym-Quotes-9.jpg"
+          src="src\images\22.webp"
           alt="image 3"
           className="object-fill h-full w-full "
         />

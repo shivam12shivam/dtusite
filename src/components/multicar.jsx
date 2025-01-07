@@ -2,9 +2,10 @@ import { Carousel } from "@material-tailwind/react";
 
 export function MultiCar() {
   return (
-    <div className="flex gap-2 mt-2">
+    <div className="flex gap-2 mt-2 border-t border-blue-gray-200">
       {/* Carousel 1 */}
       <div className="w-full sm:w-1/3">
+      <div className="font-extrabold shadow-2xl text-2xl">RESEARCH HIGHLIGHTS</div>
         <Carousel
           transition={{ duration: 1 }}
           autoplay={true}
@@ -22,6 +23,7 @@ export function MultiCar() {
             </div>
           )}
         >
+ 
           <img
             src="https://www.wewishes.com/wp-content/uploads/2020/07/Gym-Quotes-1.jpg"
             alt="image 1"
@@ -42,6 +44,8 @@ export function MultiCar() {
 
       {/* Carousel 2 */}
       <div className="w-full sm:w-1/3">
+      <div className="font-extrabold shadow-2xl text-2xl"><h1>ALUMNI CORNER</h1></div>
+
         <Carousel
           transition={{ duration: 1 }}
           autoplay={true}
@@ -79,6 +83,8 @@ export function MultiCar() {
 
       {/* Carousel 3 */}
       <div className="w-full sm:w-1/3">
+      <div className="font-extrabold shadow-2xl text-2xl">INCUBATION@DTU</div>
+
         <Carousel
           transition={{ duration: 1 }}
           autoplay={true}

@@ -11,7 +11,7 @@ export function Footer() {
           <Typography
             as="a"
             href="#"
-            color="blue-gray"
+            color="white"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
             About Us
@@ -21,7 +21,7 @@ export function Footer() {
           <Typography
             as="a"
             href="#"
-            color="blue-gray"
+            color="white"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
             License
@@ -31,7 +31,7 @@ export function Footer() {
           <Typography
             as="a"
             href="#"
-            color="blue-gray"
+            color="white"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
             Contribute
@@ -41,7 +41,7 @@ export function Footer() {
           <Typography
             as="a"
             href="#"
-            color="blue-gray"
+            color="white"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
             Contact Us

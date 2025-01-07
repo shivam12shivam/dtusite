@@ -14,7 +14,9 @@ import {
             <h2 className=" pt-1">Web Resources</h2>
         </div>
         <List>
-          <ListItem>
+
+            <a href="https://dtu.ac.in/Web/studentCorner/">
+          <ListItem  >
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="candice" src="\src\images\1.jpg" />
             </ListItemPrefix>
@@ -25,6 +27,9 @@ import {
               
             </div>
           </ListItem>
+            </a>
+
+            <a href="https://dtu.ac.in/Web/ERP/about/">
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="alexander" src="\src\images\2.png" />
@@ -36,6 +41,10 @@ import {
               
             </div>
           </ListItem>
+            </a>
+
+          <a href="http://library.dtu.ac.in/">
+
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="src\images\3.png" />
@@ -47,6 +56,11 @@ import {
               
             </div>
           </ListItem>
+          </a>
+
+          <a href="http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=eds">
+
+
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="src\images\4.png" />
@@ -58,6 +72,10 @@ import {
               
             </div>
           </ListItem>
+          </a>
+
+          <a href="http://www.dtu.ac.in/Web/Facilities/ComputerCentre/about/">
+
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="/src/images/5.png" />
@@ -69,6 +87,10 @@ import {
               
             </div>
           </ListItem>
+          </a>
+
+          <a href="http://exam.dtu.ac.in/">
+
           <ListItem>
             <ListItemPrefix>
               <Avatar  className="object-fill" variant="square" alt="emma" src="src/images/6.png" />
@@ -80,6 +102,10 @@ import {
               
             </div>
           </ListItem>
+          </a>
+
+          <a href="https://iqac.dtu.ac.in/">
+            
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\12.png" />
@@ -91,6 +117,10 @@ import {
               
             </div>
           </ListItem>
+          </a>
+
+          <a href="https://dtu.ac.in/Web/eoc/about/">
+
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="src/images/7.jpg" />
@@ -102,6 +132,11 @@ import {
               
             </div>
           </ListItem>
+
+          </a>
+
+          <a href="http://dtu.ac.in/Web/coea/about/index.php">
+
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="src\images\8.jpg" />
@@ -114,6 +149,10 @@ Outreach
               
             </div>
           </ListItem>
+          </a>
+
+          <a href="http://dtu.ac.in/modules/hrdc/index.html">
+
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="src\images\9.jpg" />
@@ -125,6 +164,10 @@ Outreach
               
             </div>
           </ListItem>
+          </a>
+
+          <a href="http://dtutimes.dtu.ac.in/">
+            
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\10.png" />
@@ -136,6 +179,10 @@ Outreach
               
             </div>
           </ListItem>
+          </a>
+
+          <a href="http://hostels.dtu.ac.in/">
+
           <ListItem>
             <ListItemPrefix>
               <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\11.png" />
@@ -147,6 +194,7 @@ Outreach
               
             </div>
           </ListItem>
+          </a>
 
         </List>
       </Card>
