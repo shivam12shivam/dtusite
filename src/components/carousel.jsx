@@ -19,22 +19,22 @@ export function Carouselfunc() {
         )}
       >
         <img
-          src="\public\images\20.avif"
+          src="\images\20.avif"
           alt="image 1"
           className="object-fill h-full w-full "
         />
         <img
-          src="\public\images\13.jpg"
+          src="\images\13.jpg"
           alt="image 1"
           className="object-fill h-full w-full "
         />
         <img
-          src="\public\images\21.jpg"
+          src="\images\21.jpg"
           alt="image 2"
           className="object-fill h-full w-full "
         />
         <img
-          src="\public\images\22.webp"
+          src="\images\22.webp"
           alt="image 3"
           className="object-fill h-full w-full "
         />
