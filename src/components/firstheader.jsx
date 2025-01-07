@@ -21,7 +21,7 @@ export default function Header() {
   ];
 
   return (
-    <div className=" bg-gray-500 relative w-full flex justify-between items-center top-0 left-0 z-50 mx-0" >
+    <div className=" bg-customOrange relative w-full flex justify-between items-center top-0 left-0 z-50 mx-0" >
       {/* Logo */}
 
       {/* Mobile Hamburger Icon */}
