@@ -9,7 +9,7 @@ import {
    
   export function Listfunc() {
     return (
-      <Card className="w-80 h-full">
+      <Card className="w-90 h-full">
         <div className=" text-black font-bold bg-light-blue-100 h-9 items-center align-middle ">
             <h2 className=" pt-1">Web Resources</h2>
         </div>

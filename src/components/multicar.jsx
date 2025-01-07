@@ -44,7 +44,7 @@ export function MultiCar() {
 
             {/* Carousel 2 */}
             <div className="w-full sm:w-1/3">
-                <div className="font-extrabold shadow-2xl text-2xl"><h1>ALUMNI CORNER</h1></div>
+                <div className="font-extrabold shadow-2xl shadow-black text-2xl"><h1>ALUMNI CORNER</h1></div>
 
                 <Carousel
                     transition={{ duration: 2 }}

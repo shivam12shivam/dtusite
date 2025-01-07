@@ -13,10 +13,10 @@ export default function Secheader() {
             className="h-20 w-auto"
           />
           <div className="ml-4">
-            <h1 className="text-xl font-bold text-gray-700">
+            <h1 className="text-2xl font-extrabold text-gray-700">
               DELHI TECHNOLOGICAL UNIVERSITY
             </h1>
-            <h2 className="text-sm font-medium text-gray-500">
+            <h2 className="text-lg font-bold text-gray-600">
               (Erstwhile DELHI COLLEGE OF ENGINEERING)
             </h2>
           </div>
