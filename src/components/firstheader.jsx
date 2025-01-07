@@ -50,7 +50,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden ${isMenuOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-gray-400 py-2 border-t border-white`}
+        className={`lg:hidden ${isMenuOpen ? "block" : "hidden"} absolute top-10 left-0 w-full bg-gray-400 py-2 border-t border-white`}
       >
         <ul className="flex flex-col items-center">
           {navItems.map((item, index) => (
