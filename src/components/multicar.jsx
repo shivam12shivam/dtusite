@@ -81,7 +81,7 @@ export function MultiCar() {
                     </div>
                     <div className="relative">
                         <img
-                            src="/public/images/s3.jpeg"
+                            src="/images/s3.jpeg"
                             alt="image 3"
                             className="object-fill h-full w-full"
                         />
