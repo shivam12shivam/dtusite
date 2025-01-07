@@ -18,7 +18,7 @@ import {
             <a href="https://dtu.ac.in/Web/studentCorner/">
           <ListItem  >
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="candice" src="\src\images\1.jpg" />
+              <Avatar className="object-fill" variant="square" alt="candice" src="\public\images\1.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -32,7 +32,7 @@ import {
             <a href="https://dtu.ac.in/Web/ERP/about/">
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="alexander" src="\src\images\2.png" />
+              <Avatar className="object-fill" variant="square" alt="alexander" src="\public\images\2.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -47,7 +47,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\3.png" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public\images\3.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -63,7 +63,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\4.png" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public\images\4.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -78,7 +78,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="/src/images/5.png" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public/images/5.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -93,7 +93,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar  className="object-fill" variant="square" alt="emma" src="\src/images/6.png" />
+              <Avatar  className="object-fill" variant="square" alt="emma" src="\public/images/6.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -108,7 +108,7 @@ import {
             
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\12.png" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public\images\12.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -123,7 +123,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\src/images/7.jpg" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public/images/7.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -139,7 +139,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\8.jpg" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public\images\8.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -155,7 +155,7 @@ Outreach
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\9.jpg" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public\images\9.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -170,7 +170,7 @@ Outreach
             
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\10.png" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public\images\10.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -185,7 +185,7 @@ Outreach
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\11.png" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\public\images\11.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">

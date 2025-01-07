@@ -64,13 +64,13 @@ export function MultiCar() {
                     )}
                 >
                     <img
-                        src="\src\images\s1.jpeg"
+                        src="\public\images\s1.jpeg"
                         alt="image 1"
                         className="object-fill h-full w-full "
                     />
                     <div className="">
                         <img
-                            src="\src\images\s2.png"
+                            src="\public\images\s2.png"
                             alt="image 2"
                             className="object-fill h-full w-full "
                         />

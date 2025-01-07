@@ -8,7 +8,7 @@ export default function Secheader() {
         {/* Image on the left */}
         <div className="flex items-center mb-4 lg:mb-0">
           <img
-            src="/src/images/Delhi-Technological-University.webp" // Replace with your image path
+            src="\public/images/Delhi-Technological-University.webp" // Replace with your image path
             alt="Delhi Technological University"
             className="h-20 w-auto"
           />
