@@ -3,7 +3,7 @@ import { Carousel } from "@material-tailwind/react";
 export function Carouselfunc() {
   return (
     <div>
-      <Carousel transition={{ duration: 1 }} autoplay={true} loop={true}
+      <Carousel transition={{ duration: 2 }} autoplay={true} loop={true}
         className=" overflow-hidden h-[550px]"
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">

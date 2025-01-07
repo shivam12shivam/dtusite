@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Secheader() {
   return (
-    <div className="bg-white border-b border-gray-300 w-full mt-6 left-0 box-border">
+    <div className="bg-white border-b border-gray-300 w-full mt-6 left-0 box-border ">
       {/* Top Div */}
       <div className="flex flex-col lg:flex-row items-center justify-between px-4 py-2">
         {/* Image on the left */}

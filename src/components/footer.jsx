@@ -2,7 +2,7 @@ import { Typography } from "@material-tailwind/react";
  
 export function Footer() {
   return (
-    <footer className="flex w-full bg-gray-600 flex-row flex-wrap items-center justify-center border-t border-blue-gray-50 py-4 mt-2 text-center md:justify-between bottom-0 left-0">
+    <footer className="flex w-full bg-gray-600 flex-row flex-wrap items-center justify-center border-t border-blue-gray-50 py-4 px-4 mt-2 text-center md:justify-between bottom-0 left-0">
       <Typography color="white" className="font-normal">
         &copy;2024 Delhi Technological University , Shahbad Daulatpur, Main Bawana Road
       </Typography>

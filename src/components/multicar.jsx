@@ -2,12 +2,12 @@ import { Carousel } from "@material-tailwind/react";
 
 export function MultiCar() {
   return (
-    <div className="flex gap-2 mt-2 border-t border-blue-gray-200">
+    <div className="flex gap-1 mt-2 border-t border-blue-gray-200">
       {/* Carousel 1 */}
       <div className="w-full sm:w-1/3">
-      <div className="font-extrabold shadow-2xl text-2xl">RESEARCH HIGHLIGHTS</div>
+      <div className="font-black shadow-2xl text-2xl">RESEARCH HIGHLIGHTS</div>
         <Carousel
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
           autoplay={true}
           loop={true}
           className=" overflow-hidden h-[340px]"
@@ -47,7 +47,7 @@ export function MultiCar() {
       <div className="font-extrabold shadow-2xl text-2xl"><h1>ALUMNI CORNER</h1></div>
 
         <Carousel
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
           autoplay={true}
           loop={true}
           className=" overflow-hidden h-[340px]"
@@ -86,7 +86,7 @@ export function MultiCar() {
       <div className="font-extrabold shadow-2xl text-2xl">INCUBATION@DTU</div>
 
         <Carousel
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
           autoplay={true}
           loop={true}
           className=" overflow-hidden h-[340px]"

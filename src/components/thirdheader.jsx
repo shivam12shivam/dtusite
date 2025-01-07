@@ -14,12 +14,12 @@ export default function MenuBar() {
   ];
 
   return (
-    // <div className="bg-gray-400 flex flex-wrap justify-center items-center">
-      <div className=" bg-gray-400 flex flex-wrap justify-center items-center ">
+    // <div className="bg-gray-600 flex flex-wrap justify-around items-center">
+      <div className=" bg-gray-600 flex flex-wrap justify-around items-center ">
         {menuItems.map((item, index) => (
           <div
             key={index}
-            className="px-1 border-1 border-white "
+            className="border-r border-white "
           >
             <a
               href={item.link}
