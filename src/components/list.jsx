@@ -47,7 +47,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="src\images\3.png" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\3.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -63,7 +63,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="src\images\4.png" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\4.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -93,7 +93,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar  className="object-fill" variant="square" alt="emma" src="src/images/6.png" />
+              <Avatar  className="object-fill" variant="square" alt="emma" src="\src/images/6.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -123,7 +123,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="src/images/7.jpg" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\src/images/7.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -139,7 +139,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="src\images\8.jpg" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\8.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -155,7 +155,7 @@ Outreach
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="src\images\9.jpg" />
+              <Avatar className="object-fill" variant="square" alt="emma" src="\src\images\9.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
