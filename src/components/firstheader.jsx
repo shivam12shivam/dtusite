@@ -21,7 +21,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="bg-gray-400 fixed w-full flex justify-between items-center top-0 left-0 z-50 px-4">
+    <div className=" bg-customOrange relative w-full flex justify-between items-center top-0 left-0 z-50 mx-0" >
       {/* Logo */}
 
       {/* Mobile Hamburger Icon */}
@@ -35,11 +35,11 @@ export default function Header() {
       </button>
 
       {/* Desktop Menu */}
-      <ul className="hidden lg:flex w-full justify-around items-center space-x-4">
+      <ul className="hidden lg:flex w-full justify-around items-center space-x-4 mx-2">
         {navItems.map((item, index) => (
           <li
             key={index}
-            className="text-white hover:text-gray-800 hover:bg-white transition-all text-sm font-medium px-4 py-2"
+            className="text-white hover:text-gray-800 hover:bg-white transition-all text-sm font-medium px-2 py-1"
           >
             <a href={item.link} className="block">
               {item.label}
