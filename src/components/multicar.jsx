@@ -2,15 +2,15 @@ import { Carousel } from "@material-tailwind/react";
 
 export function MultiCar() {
     return (
-        <div className="gap-2 mt-2 grid sm:grid-cols-1 md:grid-cols-2 lg:flex border-t border-blue-gray-200">
+        <div className="gap-2 mt-2 flex sm:grid-cols-1 md:grid-cols-2 lg:flex border-t border-blue-gray-200 ">
             {/* Carousel 1 */}
-            <div className="w-full sm:w-1/3">
+            <div className="w-full sm:w-1/3 ">
                 <div className="font-black shadow-2xl text-2xl">RESEARCH HIGHLIGHTS</div>
                 <Carousel
                     transition={{ duration: 3 }}
                     autoplay={true}
                     loop={true}
-                    className=" overflow-hidden h-[340px]"
+                    className=" overflow-hidden h-[340px] "
                     navigation={({ setActiveIndex, activeIndex, length }) => (
                         <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                             {new Array(length).fill("").map((_, i) => (
