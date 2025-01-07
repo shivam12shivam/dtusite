@@ -24,6 +24,11 @@ export function Carouselfunc() {
           className="object-fill h-full w-full "
         />
         <img
+          src="\public\images\13.jpg"
+          alt="image 1"
+          className="object-fill h-full w-full "
+        />
+        <img
           src="\public\images\21.jpg"
           alt="image 2"
           className="object-fill h-full w-full "

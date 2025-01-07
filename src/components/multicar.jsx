@@ -72,21 +72,24 @@ export function MultiCar() {
                         <img
                             src="\public\images\s2.png"
                             alt="image 2"
-                            className="object-fill h-full w-full "
+                            className=" "
                         />
                         <div className=" overflow-hidden left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2">
-                        Dr Lal PathLabs, one of India's leading diagnostic chains, has recently appointed Mr. Shankha Banerjee (DTU Alumnus, B.E. 1994, Production & Industrial Engg) as its new CEO.
+                            Dr Lal PathLabs, one of India's leading diagnostic chains, has recently appointed Mr. Shankha Banerjee (DTU Alumnus, B.E. 1994, Production & Industrial Engg) as its new CEO.
                         </div>
 
                     </div>
-                    <div className="">
-
+                    <div className="relative">
                         <img
-                            src="https://www.wewishes.com/wp-content/uploads/2020/07/Gym-Quotes-9.jpg"
+                            src="/public/images/s3.jpeg"
                             alt="image 3"
-                            className="object-fill h-full w-full "
+                            className="object-fill h-full w-full"
                         />
+                        <div className="absolute bottom-0 left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2">
+                            Vijay Shekhar Sharma graduated from Delhi College of Engineering (or DTU) in the batch of 1999 and is the founder of PAYTM with a valuation exceeding $16 billion.
+                        </div>
                     </div>
+
                 </Carousel>
             </div>
 
