@@ -13,17 +13,17 @@ export default function Secheader() {
             className="h-20 w-auto"
           />
           <div className="ml-4">
-            <h1 className="font-impact text-4xl font-extrabold text-gray-700">
+            <h1 className="font-impact text-xl md:text-4xl font-extrabold text-gray-700">
               DELHI TECHNOLOGICAL UNIVERSITY
             </h1>
-            <h2 className="font-impact text-2xl font-bold text-gray-600">
+            <h2 className="font-impact text-sm md:text-2xl font-bold text-gray-600">
               (Erstwhile DELHI COLLEGE OF ENGINEERING)
             </h2>
           </div>
         </div>
 
         {/* Additional Buttons */}
-        <div className="flex flex-col lg:flex-row space-y-4 lg:space-x-4 lg:space-y-0">
+        <div className=" flex align-middle flex-row space-x-4 space-y-0">
             <a href="http://www.dtu.ac.in/Web/quick_links/donors.php">
           <button className="bg-gray-300 text-black px-4 py-2 font-semibold hover:bg-gray-400 underline ">
             Wall of Donors
