@@ -30,7 +30,7 @@ export default function MenuBar() {
   };
 
   return (
-    <div className="bg-gray-600 flex justify-between items-center mb-4">
+    <div className="flex flex-wrap bg-gray-600 flex justify-between items-center mb-4">
       {menuItems.map((item, index) => (
         <div
           key={index}
