@@ -44,7 +44,7 @@ export function MultiCar() {
 
             {/* Carousel 2 */}
             <div className="w-full">
-                <div className="font-extrabold shadow-2xl shadow-black text-sm md:text-2xl"><h1>ALUMNI CORNER</h1></div>
+                <div className="font-extrabold shadow-2xl shadow-black text-sm md:text-2xl"><h1>ALUMNI <br className="block sm:hidden" /> CORNER</h1></div>
 
                 <Carousel
                     transition={{ duration: 3.5 }}
@@ -85,7 +85,7 @@ export function MultiCar() {
                             alt="image 3"
                             className="object-fill h-full w-full"
                         />
-                        <div className="absolute overflow-hidden left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2 sm:p-4 md:p-4 text-xxs sm:text-base">
+                        <div className="absolute md:bottom-0 left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2 sm:p-4 md:p-4 text-xxs sm:text-base">
                             Vijay Shekhar Sharma graduated from Delhi College of Engineering (or DTU) in the batch of 1999 and is the founder of PAYTM with a valuation exceeding $16 billion.
                         </div>
                     </div>
