@@ -9,20 +9,20 @@ import {
    
   export function Listfunc() {
     return (
-      <Card className="w-full sm:w-1/3 md:w-1/3">
-        <div className=" text-black font-bold bg-light-blue-100 h-9 items-center align-middle ">
-            <h2 className=" pt-1">Web Resources</h2>
+      <Card className="md:w-96 h-[600px] md:h-full w-28 ">
+        <div className=" text-black font-bold bg-light-blue-100 h-6 md:h-9 items-center align-middle ">
+            <h2 className=" text-xxs pt-2 md:text-lg md:pt-1">Web Resources</h2>
         </div>
-        <List className="text-wrap overflow-hidden break-words">
+        <List className="text-wrap overflow break-words">
 
             <a href="https://dtu.ac.in/Web/studentCorner/">
           <ListItem  >
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6 " variant="square" alt="candice" src="\images\1.jpg" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4 " variant="square" alt="candice" src="\images\1.jpg" />
             </ListItemPrefix>
             <div className="break-words overflow-hidden">
-              <Typography variant="h6" color="blue-gray" className="text-lg sm:text-sm font-medium break-words">
-              Student Corner
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
+              Student  Corner
               </Typography>
               
             </div>
@@ -32,10 +32,10 @@ import {
             <a href="https://dtu.ac.in/Web/ERP/about/">
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="alexander" src="\images\2.png" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="alexander" src="\images\2.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
               ERP
               </Typography>
               
@@ -47,10 +47,10 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\3.png" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="\images\3.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
               Central Library
               </Typography>
               
@@ -63,11 +63,11 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\4.png" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="\images\4.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray" >
-              Library Discovery Service
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words" >
+              Library Discovery  <span className="block sm:hidden"></span>Service
               </Typography>
               
             </div>
@@ -78,11 +78,11 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="/images/5.png" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="/images/5.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
-              Computer Centre
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
+              Computer <span className="block sm:hidden"></span> Centre
               </Typography>
               
             </div>
@@ -93,11 +93,11 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar  className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="/images/6.png" />
+              <Avatar  className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="/images/6.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
-              Examination & Result
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
+              Examination<span className="block sm:hidden"></span> & Result
               </Typography>
               
             </div>
@@ -108,10 +108,10 @@ import {
             
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\12.png" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="\images\12.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
               IQAC
               </Typography>
               
@@ -123,11 +123,11 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="/images/7.jpg" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="/images/7.jpg" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
-              Equal Opportunity Cell
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
+              Equal <span className="block sm:hidden"></span>Opportunity<span className="block sm:hidden"></span> Cell
               </Typography>
               
             </div>
@@ -139,11 +139,11 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\8.jpg" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="\images\8.jpg" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
-              Centre of Extension and Field
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
+              Centre of<span className="block sm:hidden"></span> Extension<span className="block sm:hidden"></span> and to<span className="block sm:hidden"></span>
 Outreach
               </Typography>
               
@@ -155,10 +155,10 @@ Outreach
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\9.jpg" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="\images\9.jpg" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
               HRDC
               </Typography>
               
@@ -170,10 +170,10 @@ Outreach
             
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\10.png" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="\images\10.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
               DTU Times
               </Typography>
               
@@ -185,10 +185,10 @@ Outreach
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\11.png" />
+              <Avatar className="object-fill md:h-10 md:w-10 h-4 w-4" variant="square" alt="emma" src="\images\11.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
+              <Typography variant="h6" color="blue-gray" className="md:text-lg text-xxxxs font-extrabold break-words">
               Hostels
               </Typography>
               
