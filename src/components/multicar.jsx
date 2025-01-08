@@ -63,11 +63,7 @@ export function MultiCar() {
                         </div>
                     )}
                 >
-                    <img
-                        src="\images\s1.jpeg"
-                        alt="image 1"
-                        className="object-fill h-full w-full "
-                    />
+            
                     <div className="">
                         <img
                             src="\images\s2.png"
@@ -115,17 +111,32 @@ export function MultiCar() {
                     )}
                 >
                     <img
-                        src="https://www.wewishes.com/wp-content/uploads/2020/07/Gym-Quotes-1.jpg"
+                        src="\images\s1.jpeg"
                         alt="image 1"
                         className="object-fill h-full w-full "
                     />
                     <img
-                        src="https://staticg.sportskeeda.com/editor/2022/10/31dcd-16652377189175-1920.jpg"
+                        src="images/i1.jpg"
+                        alt="image 1"
+                        className="object-fill h-full w-full "
+                    />
+                    <img
+                        src="images/i2.jpg"
                         alt="image 2"
                         className="object-fill h-full w-full "
                     />
                     <img
-                        src="https://www.wewishes.com/wp-content/uploads/2020/07/Gym-Quotes-9.jpg"
+                        src="images/i3.jpg"
+                        alt="image 3"
+                        className="object-fill h-full w-full "
+                    />
+                    <img
+                        src="images/i4.jpg"
+                        alt="image 3"
+                        className="object-fill h-full w-full "
+                    />
+                    <img
+                        src="images/i5.jpg"
                         alt="image 3"
                         className="object-fill h-full w-full "
                     />
