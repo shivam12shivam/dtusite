@@ -9,19 +9,19 @@ import {
    
   export function Listfunc() {
     return (
-      <Card className="w-90 h-full">
+      <Card className="w-full md: w-1/3 sm:w-auto ">
         <div className=" text-black font-bold bg-light-blue-100 h-9 items-center align-middle ">
             <h2 className=" pt-1">Web Resources</h2>
         </div>
-        <List>
+        <List className="text-wrap overflow-hidden break-words">
 
             <a href="https://dtu.ac.in/Web/studentCorner/">
           <ListItem  >
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="candice" src="\images\1.jpg" />
+              <Avatar className="object-fill " variant="square" alt="candice" src="\images\1.jpg" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
+              <Typography variant="h6" color="blue-gray" >
               Student Corner
               </Typography>
               
