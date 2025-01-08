@@ -7,10 +7,10 @@ export function MultiCar() {
             <div className="w-full ">
                 <div className="font-black shadow-2xl text-sm md:text-2xl">RESEARCH HIGHLIGHTS</div>
                 <Carousel
-                    transition={{ duration: 3 }}
+                    transition={{ duration: 3.5 }}
                     autoplay={true}
                     loop={true}
-                    className=" overflow-hidden h-[220px] md:h-[340px] "
+                    className=" overflow-hidden h-[220px] md:h-[340px]"
                     navigation={({ setActiveIndex, activeIndex, length }) => (
                         <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                             {new Array(length).fill("").map((_, i) => (
@@ -23,24 +23,31 @@ export function MultiCar() {
                         </div>
                     )}
                 >
+            
+                    <div className="">
+                        <img
+                            src="\images\rh1.png"
+                            alt="image 2"
+                            className="object-fill h-24 md:h-full md:w-full"
+                        />
+                        <div className=" absolute md:bottom-0 left-0 h-full md:h-min w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2 sm:p-4 md:p-4 text-xxs sm:text-base">
+                        Greenhouse Gas Mitigation Potential Through Clean Energy for Cement Production in India
+                        </div>
 
-                    <img
-                        src="https://www.wewishes.com/wp-content/uploads/2020/07/Gym-Quotes-1.jpg"
-                        alt="image 1"
-                        className="object-fill h-full w-full "
-                    />
-                    <img
-                        src="https://staticg.sportskeeda.com/editor/2022/10/31dcd-16652377189175-1920.jpg"
-                        alt="image 2"
-                        className="object-fill h-full w-full "
-                    />
-                    <img
-                        src="https://www.wewishes.com/wp-content/uploads/2020/07/Gym-Quotes-9.jpg"
-                        alt="image 3"
-                        className="object-fill h-full w-full "
-                    />
+                    </div>
+                    <div className="">
+                        <img
+                            src="/images/rh1.png"
+                            alt="image 3"
+                            className="object-fill h-24 md:h-full md:w-full"
+                        />
+                        <div className="absolute md:bottom-0 left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2 sm:p-4 md:p-4 text-xxs sm:text-base">
+                        A study evaluates the potential of concentrated solar energy in cement production and its role in reducing greenhouse gas emissions. It estimates that solar energy can meet the thermal needs of cement production in India, cutting CO2 emissions by 2.5–7.6 million tons annually.                        </div>
+                    </div>
+
                 </Carousel>
             </div>
+
 
             {/* Carousel 2 */}
             <div className="w-full">
@@ -68,7 +75,7 @@ export function MultiCar() {
                         <img
                             src="\images\s2.png"
                             alt="image 2"
-                            className=" "
+                            className="object-fill h-16 md:h-full w-full "
                         />
                         <div className=" overflow-hidden left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2 sm:p-4 md:p-4 text-xxs sm:text-base">
                             Dr Lal PathLabs, one of India's leading diagnostic chains, has recently appointed Mr. Shankha Banerjee (DTU Alumnus, B.E. 1994, Production & Industrial Engg) as its new CEO.
@@ -79,11 +86,21 @@ export function MultiCar() {
                         <img
                             src="/images/s3.jpeg"
                             alt="image 3"
-                            className="object-fill h-full w-full"
+                            className="object-fill h-16 md:h-[340px] w-full"
                         />
                         <div className="absolute md:bottom-0 left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2 sm:p-4 md:p-4 text-xxs sm:text-base">
                             Vijay Shekhar Sharma graduated from Delhi College of Engineering (or DTU) in the batch of 1999 and is the founder of PAYTM with a valuation exceeding $16 billion.
                         </div>
+                    </div>
+                    <div className="">
+                        <img
+                            src="\images\s4.jpeg"
+                            alt="image 2"
+                            className="object-fill h-16 md:h-[240px] w-full "
+                        />
+                        <div className=" overflow-hidden left-0 w-full text-center text-white font-semibold bg-black bg-opacity-50 p-2 sm:p-4 md:p-4 text-xxs sm:text-base">
+                        Durjoy Datta is an Indian author and screenwriter known for his coffee-table novels about the romantic life of young Indians. He is one among the bestselling writers in contemporary India                        </div>
+
                     </div>
 
                 </Carousel>
