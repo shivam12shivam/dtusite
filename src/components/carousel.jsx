@@ -64,7 +64,7 @@ export function Carouselfunc() {
           <img
             src="/images/19.jpg" // Ensure forward slashes and correct path
             alt="image 1"
-            className="object-fill h-64 md:h-full h-[250px] w-full md:-translate-y-24"
+            className="object-fill md:h-full h-[250px] w-full md:-translate-y-24"
           />
           
           <div className="md:absolute bottom-0 w-full bg-black bg-opacity-70 text-white text-center py-2 z-10">
