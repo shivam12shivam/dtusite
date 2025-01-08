@@ -25,8 +25,8 @@ function App() {
         </div>
         <Carouselfunc />
         <MultiCar />
-        <div className='mt-2 flex flex-wrap justify-around h-full w-full sm:flex-col sm:space-y-4 md:flex-row md:space-x-6 '>
-          <img src="/images/info.png" alt="" className="h-full"  />
+        <div className='mt-2 flex justify-around h-full w-full sm:flex-col sm:space-y-4 md:flex-row md:space-x-6 '>
+          <img src="/images/info.png" alt="" className="h-full md: w-2/3 sm:w-auto "  />
           <Listfunc/>
         </div>
 
