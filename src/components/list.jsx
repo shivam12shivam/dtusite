@@ -9,7 +9,7 @@ import {
    
   export function Listfunc() {
     return (
-      <Card className="w-full md: w-1/3 sm:w-auto ">
+      <Card className="w-full sm:w-1/3 md:w-1/3">
         <div className=" text-black font-bold bg-light-blue-100 h-9 items-center align-middle ">
             <h2 className=" pt-1">Web Resources</h2>
         </div>
@@ -18,10 +18,10 @@ import {
             <a href="https://dtu.ac.in/Web/studentCorner/">
           <ListItem  >
             <ListItemPrefix>
-              <Avatar className="object-fill " variant="square" alt="candice" src="\images\1.jpg" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6 " variant="square" alt="candice" src="\images\1.jpg" />
             </ListItemPrefix>
-            <div>
-              <Typography variant="h6" color="blue-gray" >
+            <div className="break-words overflow-hidden">
+              <Typography variant="h6" color="blue-gray" className="text-lg sm:text-sm font-medium break-words">
               Student Corner
               </Typography>
               
@@ -32,7 +32,7 @@ import {
             <a href="https://dtu.ac.in/Web/ERP/about/">
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="alexander" src="\images\2.png" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="alexander" src="\images\2.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -47,7 +47,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\images\3.png" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\3.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -63,10 +63,10 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\images\4.png" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\4.png" />
             </ListItemPrefix>
             <div>
-              <Typography variant="h6" color="blue-gray">
+              <Typography variant="h6" color="blue-gray" >
               Library Discovery Service
               </Typography>
               
@@ -78,7 +78,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="/images/5.png" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="/images/5.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -93,7 +93,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar  className="object-fill" variant="square" alt="emma" src="/images/6.png" />
+              <Avatar  className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="/images/6.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -108,7 +108,7 @@ import {
             
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\images\12.png" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\12.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -123,7 +123,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="/images/7.jpg" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="/images/7.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -139,7 +139,7 @@ import {
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\images\8.jpg" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\8.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -155,7 +155,7 @@ Outreach
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\images\9.jpg" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\9.jpg" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -170,7 +170,7 @@ Outreach
             
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\images\10.png" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\10.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
@@ -185,7 +185,7 @@ Outreach
 
           <ListItem>
             <ListItemPrefix>
-              <Avatar className="object-fill" variant="square" alt="emma" src="\images\11.png" />
+              <Avatar className="object-cover h-10 w-10 sm:h-6 sm:w-6" variant="square" alt="emma" src="\images\11.png" />
             </ListItemPrefix>
             <div>
               <Typography variant="h6" color="blue-gray">
