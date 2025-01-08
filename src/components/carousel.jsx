@@ -4,7 +4,7 @@ export function Carouselfunc() {
   return (
     <div>
       <Carousel transition={{ duration: 2 }} autoplay={false} loop={true}
-        className=" overflow-hidden h-[550px]"
+        className=" overflow-hidden "
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-1 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill("").map((_, i) => (
